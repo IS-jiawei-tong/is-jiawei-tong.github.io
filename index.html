@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jiawei Tong | Ph.D. Candidate in Information Systems</title>
+  <meta name="description" content="Jiawei Tong is a Ph.D. Candidate in Information Systems at the University of Melbourne, researching AI Accountability, Explainable AI (XAI), Responsible AI Governance, and Human-AI Interaction.">
+  <meta name="keywords" content="Jiawei Tong, University of Melbourne, Information Systems, AI Accountability, Explainable AI, XAI, Responsible AI Governance, Human-AI Interaction, Behavioural Information Systems">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jiawei Tong — Ph.D. Candidate in Information Systems">
+  <meta property="og:description" content="Researching AI Accountability, Explainable AI (XAI), Responsible AI Governance, and Human-AI Interaction at the University of Melbourne.">
+  <meta property="og:url" content="https://is-jiawei-tong.github.io/">
+  <meta property="og:image" content="https://is-jiawei-tong.github.io/assets/img/avatar_jt.jpg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <!-- ── Top Navigation ─────────────────────────────────────────────────── -->
+  <nav class="top-nav" aria-label="Primary navigation">
+    <div class="nav-container">
+      <div class="nav-links">
+        <a href="#about"        class="active" data-en="About"        data-zh="简介">About</a>
+        <a href="#education"                   data-en="Education"    data-zh="教育背景">Education</a>
+        <a href="#publications"                data-en="Research"     data-zh="学术研究">Research</a>
+        <a href="#teaching"                    data-en="Teaching"     data-zh="教学经历">Teaching</a>
+        <a href="#service"                     data-en="Service"      data-zh="学术服务">Service</a>
+        <a href="#awards"                      data-en="Awards"       data-zh="荣誉奖项">Awards</a>
+      </div>
+      <div class="nav-controls">
+        <button id="themeToggle" class="icon-btn" title="Toggle theme" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="langToggle" class="lang-toggle" title="Switch language" aria-label="Switch language">中文</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero Banner ────────────────────────────────────────────────────── -->
+  <div class="hero-banner" role="img" aria-label="Banner background"></div>
+
+  <!-- ── Main Layout ────────────────────────────────────────────────────── -->
+  <div class="page-shell">
+    <!-- Left Profile Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-card">
+        <div class="avatar-ring">
+          <img src="assets/img/avatar_jt.jpg" alt="Portrait of Jiawei Tong">
+        </div>
+        <h1 class="profile-name" data-en="Jiawei Tong" data-zh="童嘉伟">Jiawei Tong</h1>
+        <p class="profile-role"
+           data-en="Ph.D. Candidate in Information Systems"
+           data-zh="信息系统博士候选人">
+          Ph.D. Candidate in Information Systems
+        </p>
+        <p class="profile-affiliation"
+           data-en="University of Melbourne · Australia"
+           data-zh="墨尔本大学 · 澳大利亚">
+          University of Melbourne · Australia
+        </p>
+
+        <div class="email-pill">
+          <span class="email-text">jiawei.tong.1@unimelb.edu.au</span>
+          <button id="copyEmailBtn" class="copy-btn" data-email="jiawei.tong.1@unimelb.edu.au" title="Copy email" aria-label="Copy email address">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+
+        <div class="social-icons">
+          <a href="mailto:jiawei.tong.1@unimelb.edu.au" title="Email" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=OdmybIkAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+          <a href="https://orcid.org/0009-0004-1548-5888" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID">
+            <i class="ai ai-orcid"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/jiawei-vincent-tong-32442018b/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right Content Sections -->
+    <main class="content">
+
+      <!-- ── About & Research Interests ─────────────────────────────────── -->
+      <section class="section" id="about">
+        <div class="section-header">
+          <h2 class="section-title" data-en="About" data-zh="个人简介">About</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="card bio-card">
+          <p data-en="Hello! I am &lt;strong&gt;Jiawei Tong&lt;/strong&gt;, a 3rd-year Ph.D. candidate in Information Systems at the &lt;strong&gt;University of Melbourne&lt;/strong&gt; (expected completion: September 2027)."
+             data-zh="您好！我是&lt;strong&gt;童嘉伟（Jiawei Tong）&lt;/strong&gt;，目前在&lt;strong&gt;墨尔本大学&lt;/strong&gt;攻读信息系统博士学位（三年级博士候选人，预计 2027 年 9 月毕业）。">
+            Hello! I am <strong>Jiawei Tong</strong>, a 3rd-year Ph.D. candidate in Information Systems at the <strong>University of Melbourne</strong> (expected completion: September 2027).
+          </p>
+          <p data-en="My research examines &lt;strong&gt;AI accountability&lt;/strong&gt;, &lt;strong&gt;explainable AI (XAI)&lt;/strong&gt;, &lt;strong&gt;responsible AI governance&lt;/strong&gt;, and &lt;strong&gt;human–AI teaming&lt;/strong&gt;, adopting a behavioural Information Systems lens to understand how people evaluate, rely on, and attribute responsibility to AI systems in organizational contexts."
+             data-zh="我的研究聚焦于&lt;strong&gt;人工智能问责（AI Accountability）&lt;/strong&gt;、&lt;strong&gt;可解释人工智能（XAI）&lt;/strong&gt;、&lt;strong&gt;负责任 AI 治理&lt;/strong&gt;与&lt;strong&gt;人机协作（Human–AI Teaming）&lt;/strong&gt;，从行为信息系统视角探究组织情境下人们如何评估、依赖 AI 系统并归属责任。">
+            My research examines <strong>AI accountability</strong>, <strong>explainable AI (XAI)</strong>, <strong>responsible AI governance</strong>, and <strong>human–AI teaming</strong>, adopting a behavioural Information Systems lens to understand how people evaluate, rely on, and attribute responsibility to AI systems in organizational contexts.
+          </p>
+
+          <p class="interest-label" data-en="Research Interests" data-zh="研究方向">Research Interests</p>
+          <div class="interest-pills">
+            <span class="pill" data-en="AI Accountability" data-zh="AI 问责">AI Accountability</span>
+            <span class="pill" data-en="Human–AI Interaction" data-zh="人机交互">Human–AI Interaction</span>
+            <span class="pill" data-en="Explainable AI (XAI)" data-zh="可解释 AI (XAI)">Explainable AI (XAI)</span>
+            <span class="pill" data-en="Responsible AI Governance" data-zh="负责任 AI 治理">Responsible AI Governance</span>
+            <span class="pill" data-en="Behavioural Information Systems" data-zh="行为信息系统">Behavioural Information Systems</span>
+          </div>
+
+          <a class="cv-request-btn" href="mailto:jiawei.tong.1@unimelb.edu.au?subject=CV%20Request%20-%20Jiawei%20Tong">
+            <i class="fa-regular fa-envelope"></i>
+            <span data-en="CV available upon request" data-zh="个人简历可邮件索取">CV available upon request</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ── Education ──────────────────────────────────────────────────── -->
+      <section class="section" id="education">
+        <div class="section-header">
+          <h2 class="section-title" data-en="Education" data-zh="教育背景">Education</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="card-stack">
+          <div class="card">
+            <div class="entry-row">
+              <img src="assets/img/unimelb-logo.png" alt="University of Melbourne" class="institution-logo">
+              <div class="entry-body">
+                <div class="entry-top">
+                  <h3 class="entry-title" data-en="University of Melbourne" data-zh="墨尔本大学（University of Melbourne）">University of Melbourne</h3>
+                  <span class="entry-period" data-en="Mar 2024 – Expected Sep 2027" data-zh="2024年3月 – 预计2027年9月">Mar 2024 – Expected Sep 2027</span>
+                </div>
+                <p class="entry-subtitle" data-en="Doctor of Philosophy (Ph.D.) in Information Systems" data-zh="信息系统博士（Ph.D.）">Doctor of Philosophy (Ph.D.) in Information Systems</p>
+                <p class="entry-meta" data-en="Melbourne, Australia" data-zh="澳大利亚 · 墨尔本">Melbourne, Australia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="entry-row">
+              <img src="assets/img/unimelb-logo.png" alt="University of Melbourne" class="institution-logo">
+              <div class="entry-body">
+                <div class="entry-top">
+                  <h3 class="entry-title" data-en="University of Melbourne" data-zh="墨尔本大学（University of Melbourne）">University of Melbourne</h3>
+                  <span class="entry-period" data-en="Feb 2022 – Dec 2023" data-zh="2022年2月 – 2023年12月">Feb 2022 – Dec 2023</span>
+                </div>
+                <p class="entry-subtitle" data-en="Master of Information Systems, Research Specialization" data-zh="信息系统硕士（研究方向）">Master of Information Systems, Research Specialization</p>
+                <p class="entry-meta" data-en="Melbourne, Australia" data-zh="澳大利亚 · 墨尔本">Melbourne, Australia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="entry-row">
+              <img src="assets/img/monash-logo.svg" alt="Monash University" class="institution-logo">
+              <div class="entry-body">
+                <div class="entry-top">
+                  <h3 class="entry-title" data-en="Monash University" data-zh="莫纳什大学（Monash University）">Monash University</h3>
+                  <span class="entry-period" data-en="Jul 2018 – Dec 2021" data-zh="2018年7月 – 2021年12月">Jul 2018 – Dec 2021</span>
+                </div>
+                <p class="entry-subtitle" data-en="Bachelor of Information Technology, Majoring in Business Information Systems" data-zh="信息技术学士，主修商业信息系统">Bachelor of Information Technology, Majoring in Business Information Systems</p>
+                <p class="entry-meta" data-en="Melbourne, Australia" data-zh="澳大利亚 · 墨尔本">Melbourne, Australia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Research Outputs & Working Papers ──────────────────────────── -->
+      <section class="section" id="publications">
+        <div class="section-header">
+          <h2 class="section-title" data-en="Research &amp; Publications" data-zh="学术研究与成果">Research &amp; Publications</h2>
+          <span class="section-line"></span>
+        </div>
+
+        <h3 class="subsection-title" data-en="Selected Working Papers &amp; Manuscripts Under Review" data-zh="代表性在审与工作论文">
+          Selected Working Papers &amp; Manuscripts Under Review
+        </h3>
+        <ul class="pub-list">
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">Information &amp; Management</span>
+              <span class="status-badge review" data-en="Under Review" data-zh="审稿中">Under Review</span>
+            </div>
+            <p class="pub-title">When Detection Becomes Evaluation: How AI-Source Cues Contaminate Judgments of Creative Work</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Julian Marx, Tingru Cui, &amp; Ofir Turel</p>
+            <p class="pub-venue">Information &amp; Management</p>
+          </li>
+        </ul>
+
+        <h3 class="subsection-title" data-en="Refereed Conference Proceedings" data-zh="同行评审会议论文">
+          Refereed Conference Proceedings
+        </h3>
+        <ul class="pub-list">
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">ACIS 2026</span>
+              <span class="status-badge forthcoming" data-en="Forthcoming" data-zh="待刊">Forthcoming</span>
+            </div>
+            <p class="pub-title">Friend or Challenger? Designing Pedagogical AI for Learning Engagement and Outcomes</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Y. Zhu, Julian Marx, Tingru Cui, L. Liu, &amp; Ofir Turel</p>
+            <p class="pub-venue">ACIS 2026 Proceedings (Forthcoming)</p>
+            <div class="pub-actions">
+              <button class="bib-btn" data-bib="tong_2026_friend"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">ACIS 2025</span>
+            </div>
+            <p class="pub-title">“Better Questions, Better Care?” The Role of Patient Inquiry Quality and Delivery Models in Asynchronous Online Health Interactions</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Fang Sun, Hui Rao, &amp; Julian Marx</p>
+            <p class="pub-venue">ACIS 2025 Proceedings</p>
+            <div class="pub-actions">
+              <a class="pub-action-link" href="https://aisel.aisnet.org/acis2025/69" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-en="Paper" data-zh="论文链接">Paper</span>
+              </a>
+              <button class="bib-btn" data-bib="tong_2025_better"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">PACIS 2025</span>
+            </div>
+            <p class="pub-title">Understanding AI Accountability Implementation in Organizations: Insights from a Chinese Commercial Bank</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Julian Marx, Tingru Cui, &amp; Ofir Turel</p>
+            <p class="pub-venue">PACIS 2025 Proceedings</p>
+            <div class="pub-actions">
+              <a class="pub-action-link" href="https://aisel.aisnet.org/pacis2025/it_strategy/it_strategy/5" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-en="Paper" data-zh="论文链接">Paper</span>
+              </a>
+              <button class="bib-btn" data-bib="tong_2025_understanding"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">ECIS 2025</span>
+            </div>
+            <p class="pub-title">Bridging the AI Accountability Gap: The Role of Collaboration Paradigms and Reason-Responsiveness</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Julian Marx, Tingru Cui, &amp; Ofir Turel</p>
+            <p class="pub-venue">ECIS 2025 Proceedings</p>
+            <div class="pub-actions">
+              <a class="pub-action-link" href="https://aisel.aisnet.org/ecis2025/human_ai/human_ai/2" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-en="Paper" data-zh="论文链接">Paper</span>
+              </a>
+              <button class="bib-btn" data-bib="tong_2025_bridging"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">ACIS 2024</span>
+            </div>
+            <p class="pub-title">Combatting Deepfake Misinformation on Social Media: A Scoping Review and Research Agenda</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Julian Marx, Ofir Turel, &amp; Tingru Cui</p>
+            <p class="pub-venue">ACIS 2024 Proceedings</p>
+            <div class="pub-actions">
+              <a class="pub-action-link" href="https://aisel.aisnet.org/acis2024/25" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-en="Paper" data-zh="论文链接">Paper</span>
+              </a>
+              <button class="bib-btn" data-bib="tong_2024_combatting"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">ACIS 2024</span>
+            </div>
+            <p class="pub-title">Effective Stereotypical Bias Detection: The Impact of Human-AI Collaboration Modes on Human Reliance on AI Recommendation</p>
+            <p class="pub-authors">Danlei Mou, Tingru Cui, Katja Holtta-Otto, Bo Du, &amp; <strong>Jiawei Tong</strong></p>
+            <p class="pub-venue">ACIS 2024 Proceedings</p>
+            <div class="pub-actions">
+              <a class="pub-action-link" href="https://aisel.aisnet.org/acis2024/146" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-en="Paper" data-zh="论文链接">Paper</span>
+              </a>
+              <button class="bib-btn" data-bib="mou_2024_effective"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+
+          <li class="pub-card">
+            <div class="pub-badges">
+              <span class="venue-badge">ACIS 2023</span>
+            </div>
+            <p class="pub-title">The Effects of Anthropomorphism and Explanation Types on User Perception and Acceptance: Implications for Explainable AI</p>
+            <p class="pub-authors"><strong>Jiawei Tong</strong>, Tingru Cui, Ofir Turel, Bo Du, &amp; Huaihui Cheng</p>
+            <p class="pub-venue">ACIS 2023 Proceedings</p>
+            <div class="pub-actions">
+              <a class="pub-action-link" href="https://aisel.aisnet.org/acis2023/42" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span data-en="Paper" data-zh="论文链接">Paper</span>
+              </a>
+              <button class="bib-btn" data-bib="tong_2023_anthropomorphism"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ── Teaching Experience ────────────────────────────────────────── -->
+      <section class="section" id="teaching">
+        <div class="section-header">
+          <h2 class="section-title" data-en="Teaching Experience" data-zh="教学经历">Teaching Experience</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="card">
+          <div class="entry-row">
+            <img src="assets/img/unimelb-logo.png" alt="University of Melbourne" class="institution-logo">
+            <div class="entry-body">
+              <div class="entry-top">
+                <h3 class="entry-title" data-en="Academic Supervisor · University of Melbourne" data-zh="学术督导 · 墨尔本大学">Academic Supervisor · University of Melbourne</h3>
+                <span class="entry-period" data-en="Feb 2026 – Nov 2026" data-zh="2026年2月 – 2026年11月">Feb 2026 – Nov 2026</span>
+              </div>
+              <p class="entry-subtitle"
+                 data-en="&lt;a href=&quot;https://handbook.unimelb.edu.au/2026/subjects/isys90119&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Information Systems Capstone Project (ISYS90119)&lt;/a&gt;"
+                 data-zh="&lt;a href=&quot;https://handbook.unimelb.edu.au/2026/subjects/isys90119&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;信息系统毕业设计项目（ISYS90119）&lt;/a&gt;">
+                <a href="https://handbook.unimelb.edu.au/2026/subjects/isys90119" target="_blank" rel="noopener">Information Systems Capstone Project (ISYS90119)</a>
+              </p>
+
+              <div class="teaching-block">
+                <div class="teaching-heading">
+                  <strong data-en="AI-Enabled Talent Marketplace Project" data-zh="AI 赋能人才市场平台项目">AI-Enabled Talent Marketplace Project</strong>
+                  <span class="entry-period" data-en="Semester 2, 2026" data-zh="2026年第二学期">Semester 2, 2026</span>
+                </div>
+                <ul class="teaching-list">
+                  <li data-en="Supervised 32 postgraduate students partnering with an Australian AI start-up to develop an AI-enabled professional talent marketplace."
+                      data-zh="指导 32 名研究生与澳大利亚 AI 初创企业合作开发 AI 赋能的专业人才市场平台。">
+                    Supervised 32 postgraduate students partnering with an Australian AI start-up to develop an AI-enabled professional talent marketplace.
+                  </li>
+                  <li data-en="Guided student teams on AI-supported candidate evaluation and job matching, including competency modelling, proficiency assessment, scoring design, prototype development, and validation."
+                      data-zh="指导团队围绕 AI 辅助候选人评估与岗位匹配开展胜任力建模、能力评估、评分权重设计、原型开发与验证。">
+                    Guided student teams on AI-supported candidate evaluation and job matching, including competency modelling, proficiency assessment, scoring design, prototype development, and validation.
+                  </li>
+                  <li data-en="Led regular supervision, client facilitation, and milestone assessment; student prototypes were showcased at the Endeavour Exhibition, with selected solutions adopted by the industry partner."
+                      data-zh="负责日常指导、客户对接与多阶段考核；学生成果于 Endeavour Exhibition 展出，部分原型已被合作企业正式采纳使用。">
+                    Led regular supervision, client facilitation, and milestone assessment; student prototypes were showcased at the Endeavour Exhibition, with selected solutions adopted by the industry partner.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="teaching-block">
+                <div class="teaching-heading">
+                  <strong data-en="Telehealth Business Intelligence Project" data-zh="远程医疗商业智能仪表板项目">Telehealth Business Intelligence Project</strong>
+                  <span class="entry-period" data-en="Semester 1, 2026" data-zh="2026年第一学期">Semester 1, 2026</span>
+                </div>
+                <ul class="teaching-list">
+                  <li data-en="Supervised 15 postgraduate students working with an Australian telehealth provider to design and build a Business Intelligence dashboard."
+                      data-zh="指导 15 名研究生与澳大利亚远程医疗机构合作设计并开发商业智能（BI）仪表板。">
+                    Supervised 15 postgraduate students working with an Australian telehealth provider to design and build a Business Intelligence dashboard.
+                  </li>
+                  <li data-en="Guided project scoping, requirements analysis, solution design, client communication, and formal milestone assessment; prototypes were showcased at the Endeavour Exhibition and adopted by the partner."
+                      data-zh="负责项目范围界定、需求分析、方案设计与考核评估；项目成果于 Endeavour Exhibition 展出，部分原型获合作企业采纳。">
+                    Guided project scoping, requirements analysis, solution design, client communication, and formal milestone assessment; prototypes were showcased at the Endeavour Exhibition and adopted by the partner.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Academic Service & Activity ────────────────────────────────── -->
+      <section class="section" id="service">
+        <div class="section-header">
+          <h2 class="section-title" data-en="Academic Service &amp; Activity" data-zh="学术服务与活动">Academic Service &amp; Activity</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="card-stack">
+          <div class="card">
+            <div class="entry-top">
+              <h3 class="entry-title" data-en="Academic Reviewer" data-zh="学术期刊与会议审稿人">Academic Reviewer</h3>
+              <span class="entry-period" data-en="Jul 2024 – Present" data-zh="2024年7月 – 至今">Jul 2024 – Present</span>
+            </div>
+            <div class="reviewer-chips">
+              <span class="reviewer-chip">ECIS (2026)</span>
+              <span class="reviewer-chip">ICIS (2026)</span>
+              <span class="reviewer-chip">PACIS (2026)</span>
+              <span class="reviewer-chip">Internet Research (2026)</span>
+              <span class="reviewer-chip">Humanities &amp; Social Sciences Communications (2026)</span>
+              <span class="reviewer-chip">HICSS (2025)</span>
+              <span class="reviewer-chip">Information &amp; Management (2024, 2025)</span>
+              <span class="reviewer-chip">ACIS (2024, 2025)</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="entry-top">
+              <h3 class="entry-title" data-en="PACIS 2025 ISR Workshop" data-zh="PACIS 2025 ISR 论文工作坊">PACIS 2025 ISR Workshop</h3>
+              <span class="entry-period" data-en="Jul 2025" data-zh="2025年7月">Jul 2025</span>
+            </div>
+            <p class="entry-subtitle"
+               data-en="Selected Participant, Information Systems Research Workshop · Kuala Lumpur, Malaysia"
+               data-zh="入选参与者，Information Systems Research (ISR) 工作坊 · 马来西亚吉隆坡">
+              Selected Participant, Information Systems Research Workshop · Kuala Lumpur, Malaysia
+            </p>
+            <p class="entry-meta"
+               data-en="Presented and discussed ongoing research on AI accountability with senior IS scholars and workshop participants."
+               data-zh="向资深信息系统学者及参会研究者报告并深入讨论了关于 AI 问责的在研工作。">
+              Presented and discussed ongoing research on AI accountability with senior IS scholars and workshop participants.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="entry-top">
+              <h3 class="entry-title" data-en="Association for Information Systems (AIS)" data-zh="国际信息系统学会（AIS）">Association for Information Systems (AIS)</h3>
+              <span class="entry-period" data-en="Mar 2024 – Mar 2026" data-zh="2024年3月 – 2026年3月">Mar 2024 – Mar 2026</span>
+            </div>
+            <p class="entry-subtitle" data-en="Doctoral Member" data-zh="博士会员">Doctoral Member</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Honours & Awards ───────────────────────────────────────────── -->
+      <section class="section" id="awards">
+        <div class="section-header">
+          <h2 class="section-title" data-en="Honours &amp; Awards" data-zh="荣誉与奖学金">Honours &amp; Awards</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="awards-list">
+          <div class="award-row">
+            <div class="award-left">
+              <span class="award-icon"><i class="fa-solid fa-award"></i></span>
+              <div>
+                <div class="award-name" data-en="Melbourne Research Scholarship" data-zh="墨尔本研究奖学金">Melbourne Research Scholarship</div>
+                <div class="award-org" data-en="University of Melbourne" data-zh="墨尔本大学">University of Melbourne</div>
+              </div>
+            </div>
+            <span class="award-year">2023</span>
+          </div>
+
+          <div class="award-row">
+            <div class="award-left">
+              <span class="award-icon"><i class="fa-solid fa-award"></i></span>
+              <div>
+                <div class="award-name" data-en="Melbourne Graduate Scholarship" data-zh="墨尔本研究生奖学金">Melbourne Graduate Scholarship</div>
+                <div class="award-org" data-en="University of Melbourne" data-zh="墨尔本大学">University of Melbourne</div>
+              </div>
+            </div>
+            <span class="award-year">2021</span>
+          </div>
+
+          <div class="award-row">
+            <div class="award-left">
+              <span class="award-icon"><i class="fa-solid fa-award"></i></span>
+              <div>
+                <div class="award-name" data-en="Information Technology International Merit Scholarship" data-zh="信息技术国际优秀奖学金">Information Technology International Merit Scholarship</div>
+                <div class="award-org" data-en="Monash University" data-zh="莫纳什大学">Monash University</div>
+              </div>
+            </div>
+            <span class="award-year">2018</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <span data-en="&copy; 2026 Jiawei Tong. All rights reserved." data-zh="&copy; 2026 童嘉伟。保留所有权利。">
+      &copy; 2026 Jiawei Tong. All rights reserved.
+    </span>
+  </footer>
+</body>
+</html>
